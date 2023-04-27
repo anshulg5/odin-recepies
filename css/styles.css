@@ -22,14 +22,26 @@ header {
 }
 
 .recipes {
-    text-align: center;
     font-weight: bold;
     font-size: large;
     padding: 50px 0 500px;
 }
 
-.recipes a {
+.recipes ul {
     color: black;
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+}
+
+/*
+    To add space b/w marker and text: https://stackoverflow.com/a/4373058/9878734
+*/
+.recipes li {
+    padding-left: 20px;
+}
+
+.recipes a {
+    color: currentColor;
     text-decoration: none;
 }
 
