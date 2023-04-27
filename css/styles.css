@@ -27,7 +27,7 @@ header {
     padding: 50px 0 500px;
 }
 
-.recipes ul {
+.recipes ol {
     color: black;
     list-style-type: decimal-leading-zero;
     list-style-position: outside;
